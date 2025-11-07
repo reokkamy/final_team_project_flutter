@@ -114,8 +114,7 @@ class _SimpleMapScreenState extends State<SimpleMapScreen> {
                 ),
                 zoom: 15,
               ),
-              cloudMapId: '9ab22eab75ae97fa', // 동일한 Map ID 사용
-              onMapCreated: (controller) {
+               onMapCreated: (controller) {
                 _mapController = controller;
               },
               myLocationEnabled: true,

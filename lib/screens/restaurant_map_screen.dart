@@ -104,7 +104,7 @@ class _RestaurantMapScreenState extends State<RestaurantMapScreen> {
       // 서버 URL 설정 (플랫폼별로 다른 URL 사용)
       String baseUrl;
       if (Platform.isAndroid) {
-        baseUrl = '10.0.2.2:8080'; // Android 에뮬레이터
+        baseUrl = '10.100.201.6:8080'; // Android 에뮬레이터
       } else if (Platform.isIOS) {
         baseUrl = '192.168.50.80:8080'; // iOS 시뮬레이터 - Mac의 실제 IP 주소
       } else {
