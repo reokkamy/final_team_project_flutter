@@ -296,7 +296,7 @@ class ResultPage extends StatelessWidget {
                         },
                         icon: const Icon(Icons.location_on),
                         label: const Text(
-                          '내 주변 찾기',
+                          '내 주변 가게 찾기',
                           style: TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.w600,

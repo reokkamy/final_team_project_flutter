@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
 
+  url_launcher: ^6.3.1
+
   # UI 및 애니메이션
   lottie: ^3.1.2
   cupertino_icons: ^1.0.8
